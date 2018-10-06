@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-batch-sample
+Implementation-Version: 0.1.0
+Built-By: cryst
+Implementation-Vendor-Id: hello
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring-batch-sample
+Created-By: Maven Integration for Eclipse
+

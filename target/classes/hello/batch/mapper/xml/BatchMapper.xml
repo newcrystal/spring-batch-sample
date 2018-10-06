@@ -1,0 +1,9 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hello.module.mapper.BatchMapper">
+    <cache />
+
+    <insert id="insert" parameterType="hello.module.repository.Person">
+        INSERT INTO crystal.People (last_name, first_name)
+        VALUES (#{firstName}, #{lastName})
+    </insert>
+</mapper>
