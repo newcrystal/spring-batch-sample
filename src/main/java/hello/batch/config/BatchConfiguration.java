@@ -65,7 +65,7 @@ public class BatchConfiguration {
     	@Value("#{jobParameters['limit']}") Integer limit) {
     	HibernatePagingItemReader<Person> reader = new HibernatePagingItemReader<>();
     	
-    	reader.setQueryString("FROM Person ORDER BY person_id DESC");
+    	reader.setQueryString("FROM Person where person_id = 16");
     	reader.setFetchSize(10);
     	reader.setPageSize(5);
     	reader.setSessionFactory(factory.unwrap(SessionFactory.class));
